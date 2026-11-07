@@ -8,3 +8,6 @@ __pycache__/
 outputs/
 checkpoints/
 mlruns/
+mlflow.db
+mlflow.db-*
+mlartifacts/
