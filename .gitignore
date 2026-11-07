@@ -1,0 +1,11 @@
+
+.venv/
+.venv-incomplete/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+outputs/
+checkpoints/
+mlruns/
+git rm -r --cached --ignore-unmatch .venv .venv-incomplete
