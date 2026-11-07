@@ -1,0 +1,20 @@
+{
+  "name": "uniform_20",
+  "rates": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "baseline_perplexity": 46.510175139453324,
+  "compressed_perplexity": 4899.147921950838,
+  "baseline_loss": 3.8396711088589592,
+  "compressed_loss": 8.496816575498073,
+  "loss_increase": 4.657145466639114,
+  "original_parameters": 81912576,
+  "compressed_parameters": 76250268,
+  "parameter_reduction_pct": 6.912623526819617,
+  "duration_seconds": 13.787205792032182
+}

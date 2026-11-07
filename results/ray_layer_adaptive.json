@@ -1,0 +1,20 @@
+{
+  "name": "layer_adaptive",
+  "rates": [
+    0.1,
+    0.3,
+    0.1,
+    0.3,
+    0.1,
+    0.2
+  ],
+  "baseline_perplexity": 46.510175139453324,
+  "compressed_perplexity": 501.5358184992077,
+  "baseline_loss": 3.8396711088589592,
+  "compressed_loss": 6.217675027581733,
+  "loss_increase": 2.378003918722774,
+  "original_parameters": 81912576,
+  "compressed_parameters": 76719053,
+  "parameter_reduction_pct": 6.3403243477533895,
+  "duration_seconds": 4.956917291972786
+}
