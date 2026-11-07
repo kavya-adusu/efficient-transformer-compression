@@ -8,4 +8,3 @@ __pycache__/
 outputs/
 checkpoints/
 mlruns/
-git rm -r --cached --ignore-unmatch .venv .venv-incomplete
