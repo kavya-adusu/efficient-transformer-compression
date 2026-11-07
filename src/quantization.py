@@ -75,10 +75,8 @@ def main():
             "Run python src/global_optimize.py first."
         )
 
-    # -----------------------------------------
+  
     # 2. Load compressed FP32 transformer
-    # -----------------------------------------
-
     print("\nLoading optimized transformer...")
 
     model = load_optimized_model()
@@ -119,9 +117,8 @@ def main():
         exist_ok=True
     )
 
-    # -----------------------------------------
     # 4. Measure original checkpoint size
-    # -----------------------------------------
+
 
     with tempfile.TemporaryDirectory() as tmp:
 
@@ -163,17 +160,21 @@ def main():
         f"FP32 conversion difference: "
         f"{conversion_difference:.6f}"
     )
-
-    # -----------------------------------------
     # 6. Select layers for INT8 quantization
-    # -----------------------------------------
+
+
+    
+    # Selectively quantize only feed-forward layers.
+    # Keep attention projections in FP32.
 
     target_modules = {
         name
         for name, module in model.named_modules()
         if name.startswith("transformer.")
+        and ".mlp." in name
         and isinstance(module, nn.Linear)
     }
+
 
     print(
         f"\nQuantizing {len(target_modules)} projections..."

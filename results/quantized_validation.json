@@ -8,9 +8,9 @@
     "predicted_tokens": 4095
   },
   "int8_pruned": {
-    "loss": 4.294078940553398,
-    "perplexity": 73.26470221233187,
+    "loss": 4.2631460455311085,
+    "perplexity": 71.03310567858789,
     "predicted_tokens": 4095
   },
-  "loss_increase": 0.19580174878112278
+  "loss_increase": 0.16486885375883364
 }

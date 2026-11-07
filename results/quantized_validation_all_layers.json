@@ -1,0 +1,16 @@
+{
+  "dataset": "WikiText-2 validation",
+  "tokens": 4096,
+  "model": "distilgpt2",
+  "fp32_pruned": {
+    "loss": 4.098277191772275,
+    "perplexity": 60.23642234906803,
+    "predicted_tokens": 4095
+  },
+  "int8_pruned": {
+    "loss": 4.294078940553398,
+    "perplexity": 73.26470221233187,
+    "predicted_tokens": 4095
+  },
+  "loss_increase": 0.19580174878112278
+}

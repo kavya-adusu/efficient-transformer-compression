@@ -2,10 +2,10 @@
   "method": "dynamic_int8_cpu",
   "quantization_engine": "qnnpack",
   "original_checkpoint_bytes": 320117385,
-  "quantized_checkpoint_bytes": 198402709,
-  "checkpoint_size_reduction_percent": 38.02188875184021,
-  "quantized_projection_count": 24,
+  "quantized_checkpoint_bytes": 240860829,
+  "checkpoint_size_reduction_percent": 24.7585916022649,
+  "quantized_projection_count": 12,
   "fp32_conversion_difference": 1.2384555702737998e-05,
-  "int8_only_difference": 5.8817362785339355,
-  "mean_absolute_logit_difference": 5.881741046905518
+  "int8_only_difference": 5.89744234085083,
+  "mean_absolute_logit_difference": 5.897447109222412
 }
