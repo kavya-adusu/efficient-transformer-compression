@@ -1,0 +1,22 @@
+{
+  "dataset": "WikiText-2 validation",
+  "input_tokens": 4096,
+  "context_size": 256,
+  "stride": 128,
+  "baseline": {
+    "loss": 3.9148758828858314,
+    "perplexity": 50.14284753926133,
+    "predicted_tokens": 4095,
+    "parameters": 81912576,
+    "parameter_memory_mib": 312.4716796875
+  },
+  "compressed": {
+    "loss": 4.098308983477917,
+    "perplexity": 60.23833739811747,
+    "predicted_tokens": 4095,
+    "parameters": 80023603,
+    "parameter_memory_mib": 305.26581954956055
+  },
+  "memory_reduction_percent": 2.3060842330242415,
+  "loss_increase": 0.18343310059208573
+}
