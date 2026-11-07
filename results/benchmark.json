@@ -1,0 +1,18 @@
+{
+  "device": "mps",
+  "sequence_length": 128,
+  "warmup_runs": 5,
+  "benchmark_runs": 20,
+  "original": {
+    "mean_latency_ms": 13.009333319496363,
+    "median_latency_ms": 13.011896051466465,
+    "parameter_memory_mib": 312.4716796875
+  },
+  "compressed": {
+    "mean_latency_ms": 12.568277341779321,
+    "median_latency_ms": 12.52931309863925,
+    "parameter_memory_mib": 305.26581954956055
+  },
+  "memory_reduction_percent": 2.3060842330242415,
+  "latency_change_percent": -3.3903042291648866
+}
