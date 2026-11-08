@@ -1,0 +1,14 @@
+.venv/
+.venv-incomplete/
+.git/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+checkpoints/
+outputs/
+results/
+mlruns/
+mlflow.db
+mlflow.db-*
+mlartifacts/
