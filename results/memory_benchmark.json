@@ -1,0 +1,28 @@
+{
+  "original": {
+    "variant": "original",
+    "device": "cpu",
+    "parameters": 81912576,
+    "parameter_memory_mib": 312.4716796875,
+    "rss_after_load_mib": 422.375,
+    "sampled_peak_rss_mib": 786.671875,
+    "sampled_inference_rss_increase_mib": 364.296875,
+    "median_latency_ms": 51.64045805577189
+  },
+  "pruned": {
+    "variant": "pruned",
+    "device": "cpu",
+    "parameters": 80023603,
+    "parameter_memory_mib": 305.26581954956055,
+    "rss_after_load_mib": 843.765625,
+    "sampled_peak_rss_mib": 892.515625,
+    "sampled_inference_rss_increase_mib": 48.75,
+    "median_latency_ms": 38.62456255592406
+  },
+  "comparison": {
+    "sampled_peak_rss_reduction_percent": -13.454624903171997,
+    "sequence_length": 128,
+    "warmup_runs": 5,
+    "benchmark_runs": 20
+  }
+}
