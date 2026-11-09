@@ -1,0 +1,3 @@
+A transformer compression project exploring ways to reduce model size and improve inference efficiency while maintaining performance. Built with PyTorch, the project uses layer-wise sensitivity analysis, structured pruning, and INT8 quantization to evaluate compression tradeoffs on DistilGPT2.
+
+Experiments are evaluated using WikiText-2, with Ray for parallel processing, MLflow for experiment tracking, and Docker and Kubernetes for deployment.
