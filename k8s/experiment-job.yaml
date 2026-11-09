@@ -1,0 +1,36 @@
+
+apiVersion: batch/v1
+kind: Job
+
+metadata:
+  name: transformer-baseline
+
+spec:
+  backoffLimit: 1
+
+  template:
+    spec:
+      restartPolicy: Never
+
+      containers:
+        - name: transformer
+
+          image: efficient-transformer-compression:local
+          imagePullPolicy: IfNotPresent
+
+          command:
+            - python
+            - src/baseline.py
+
+          env:
+            - name: TOKENIZERS_PARALLELISM
+              value: "false"
+
+          resources:
+            requests:
+              cpu: "500m"
+              memory: "512Mi"
+
+            limits:
+              cpu: "2"
+              memory: "3Gi"
