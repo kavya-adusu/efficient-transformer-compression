@@ -6,3 +6,4 @@ datasets
 mlflow
 ray[default]
 psutil
+matplotlib
