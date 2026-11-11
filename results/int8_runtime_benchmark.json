@@ -1,0 +1,26 @@
+{
+  "fp32": {
+    "variant": "fp32",
+    "device": "cpu",
+    "sequence_length": 128,
+    "rss_after_load_mib": 680.65625,
+    "sampled_peak_rss_mib": 821.046875,
+    "median_latency_ms": 44.448311906307936,
+    "mean_latency_ms": 47.737620992120355
+  },
+  "int8": {
+    "variant": "int8",
+    "device": "cpu",
+    "sequence_length": 128,
+    "rss_after_load_mib": 933.25,
+    "sampled_peak_rss_mib": 1013.234375,
+    "median_latency_ms": 74.79416695423424,
+    "mean_latency_ms": 79.42107503768057
+  },
+  "comparison": {
+    "sampled_peak_rss_reduction_percent": -23.40761603897463,
+    "median_latency_change_percent": 68.27223295204546,
+    "warmup_runs": 5,
+    "benchmark_runs": 20
+  }
+}
